@@ -38,3 +38,14 @@ function isVowel(string){
     return ('aeiouAEIOU'.indexOf(string) !== -1);
   }
 
+// Write a function definition named hasVowels that takes in value and returns true if the string contains any vowels.
+function hasVowels(string){
+    let vowelList = "AEIOU"
+    
+    for (let i=0; i<vowelList.length; i++){
+      if(vowelList.indexOf(string[i]) !== -1) {
+        return true;
+      }
+    }
+    return false;
+  }
