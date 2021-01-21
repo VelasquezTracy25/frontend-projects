@@ -62,6 +62,10 @@ function loadQuiz(){
     // currentQuestion++;
 }
 
+function getSelected(){
+    
+}
+
 //event listener for submit button to continue to next index
 submitBtn.addEventListener("click", () => {
     currentQuestion++;
@@ -70,9 +74,9 @@ submitBtn.addEventListener("click", () => {
     if (currentQuestion < quizData.length){
         loadQuiz();
         console.log(currentQuestion);
-
-    //if not show this alert    
+    //if not show this alert   
+    // TODO: show results 
     } else {
-        alert("You have finished the quiz! Congratlations.")
+        alert("You have finished the quiz! Congratulations.")
     }
 });
