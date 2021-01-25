@@ -8,12 +8,72 @@
     <style>
         img {
             width:100px;
+            object-fit: cover;
         }
+
+        video {
+            width: 400px;
+
+        }
+
+        table ,td{
+            border: 1px solid grey;
+            border-collapse: collapse;
+        }
+
+        tfoot{
+            text-align: left; 
+        }
+
     </style>
 </head>
 <body>
     <a href="about.html">Click to learn about us</a>
-
+    <br>
     <img src="/images/coffee.jpg" alt="coffee-image">
+
+    <video controls autoplay loop src="/videos/ocean.mp4"></video>
+
+    <ul>
+        <li><a href="#">Test</a></li>
+        <li><a href="#">Test</a></li>
+        <li><a href="#">Test</a></li>
+        <li><a href="#">Test</a></li>
+        <li><a href="#">Test</a></li>
+    </ul>
+
+  <table>
+    <thead>
+        <tr>
+            <th colspan="5">Header 1</th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr>
+          <td>Data</td>
+          <td>Data</td>
+          <td>Data</td>
+          <td>Data</td>
+          <td>Data</td>
+      </tr>
+      <tr>
+        <td>Data</td>
+        <td>Data</td>
+        <td>Data</td>
+        <td>Data</td>
+        <td>Data</td>
+    </tr>
+    <tfoot>
+        <tr>
+            <th>Header Footer 1</th>
+            <th>Header Footer 2</th>
+            <th>Header Footer 3</th>
+            <th>Header Footer 4</th>
+            <th>Header Footer 5</th>
+        </tr>
+    </tfoot>
+</tbody>
+
+  </table>
 </body>
 </html>
